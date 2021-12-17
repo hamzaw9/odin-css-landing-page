@@ -1,0 +1,13 @@
+.section1 {
+  background-color: rgba(0, 0, 0, 0.767);
+}
+.navbar a img {
+  height: 100px;
+  width: 100px;
+  padding-left: 13px;
+  padding-top: 7px;
+}
+
+.header {
+  display: flex;
+}
