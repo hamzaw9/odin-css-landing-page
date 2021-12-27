@@ -1,13 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .section1 {
-  background-color: rgba(0, 0, 0, 0.767);
+  background-color: #1f2937;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+.navbar {
+  box-sizing: border-box;
+  padding-top: 20px;
+  height: 60px;
+  width: 100%;
 }
 .navbar a img {
-  height: 100px;
-  width: 100px;
-  padding-left: 13px;
-  padding-top: 7px;
+  width: 55px;
+  height: 55px;
+  overflow: hidden;
+  float: left;
+  margin-top: -12px;
+}
+ul {
+  text-align: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block;
+}
+li a {
+  padding: 10px;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  padding: 5% 0;
+  gap: 5%;
+}
+.header .item {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.item h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+.header .item p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.btn {
+  text-align: center;
+  font-size: 18px;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  color: #f9faf8;
+  font-weight: bold;
+  background-color: #3882f6;
+}
+.header img {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
 }
 
-.header {
+/* section2 starts here */
+
+.section2 {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.section2 h1 {
+  font-size: 38px;
+  color: #1f2937;
+}
+.flex-container {
+  width: 100%;
   display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+.flex-container p {
+  margin: 0;
+  padding: 0;
+}
+.flex-container .item1 {
+  width: 185px;
+  height: auto;
+}
+.flex-container img {
+  width: 185px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* section3 starts here */
+
+.section3 {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 5% 18% 5% 18%;
+}
+figcaption {
+  padding-right: 90px;
+  margin-top: -5%;
+  text-align: right;
+  font-weight: bold;
+}
+
+/* Section4 Starts here */
+
+.section4 {
+  background-color: #3882f6;
+  color: #f9faf8;
+  margin: 8% 12% 8% 12%;
+  border-radius: 4px;
+  padding: 2% 8% 2% 8%;
+}
+.bold {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.section4 p {
+  display: inline;
+}
+.section4 .btn {
+  border: 1px solid #f9faf8;
+  background-color: #3882f6;
+  float: right;
+  margin-top: -2%;
+  text-align: center;
+  font-size: 11px;
+  padding: 8px 32px;
+}
+
+/*    Footer    */
+
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: #f9faf8;
+  padding: 1% 0 1% 0;
+  font-size: 25px;
 }
